@@ -652,11 +652,10 @@ body.offcanvas {
     padding: 20px;
 }
 
-    .fh5co-feature .fh5co-icon {
+ .fh5co-icon {
         float: left;
         width: 80px;
         height: 80px;
-        display: block;
         margin-top: 5px;
         background: rgba(255,255,255,.3);
         /* padding: 40px; */
@@ -666,14 +665,14 @@ body.offcanvas {
         border: 2px solid #fec60c;
     }
 
-        .fh5co-feature .fh5co-icon i {
+.fh5co-icon i {
             color: #fec60c;
             font-size: 50px;
             margin: auto;
         }
 
 @media screen and (max-width: 1200px) {
-    .fh5co-feature .fh5co-icon i {
+     .fh5co-icon i {
         font-size: 40px;
     }
 }
@@ -1279,10 +1278,12 @@ body.offcanvas {
     width: 100%;
     height: 500px;
     padding: 40px;
-    background: url() 120px -40px no-repeat;
+    background-repeat: no-repeat;
+    background-position: 300px -40px;
     background-size: cover;
     display: flex;
     flex-direction: column;
+    background-attachment: fixed;
 }
 
 .intro-img {
@@ -1297,16 +1298,35 @@ body.offcanvas {
     color: #fff;
 }
 
-figure.figure-left {
-    margin-left: -3em;
-}
+.fh5co-testimonial {
+    padding:0;
+margin-bottom:60px;}
 
-figure.figure-left {
-    margin-left: -3em;
+    .fh5co-testimonial .item figure {
+        text-align: unset;
+        margin-top:-40px;
+        margin-bottom:-40px;
+    }
+
+    figure.figure-left {
+        margin-left: -3em;      
+    }
+
+figure.figure-right {
+    margin-right: -3em;
+    margin-left:3em;
+    float:right;
 }
 
 .fh5co-testimonial .item figure.figure-left img {
     margin-left: -3em;
+    width:100%;
+}
+
+.fh5co-testimonial .item figure.figure-right img {
+    margin-right: -3em;
+    margin-left:3em;
+    width: 100%;
 }
 
 .fh5co-testimonial .quote {
@@ -1402,9 +1422,18 @@ h2.tagline {
     font-weight: 500;
 }
 
+.text-center {
+text-align:center;}
+    .text-center .fh5co-icon {
+        margin:auto;
+    float:none;}
+.stat-text {
+width:100%; float:left; margin-top:10px; }
+
+img {
+max-width:100%;}
 /* Grow */
 .hvr-grow {
-    display: inline-block;
     vertical-align: middle;
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
