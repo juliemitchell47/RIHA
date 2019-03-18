@@ -4,52 +4,75 @@
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Nitro &mdash; Free HTML5 Bootstrap Website Template by FreeHTML5.co</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
-	<meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
-	<meta name="author" content="FreeHTML5.co" />
+                       <head>
+                           <meta charset="utf-8">
+                           <meta http-equiv="X-UA-Compatible" content="IE=edge">
+                           <title>Nitro &mdash; Free HTML5 Bootstrap Website Template by FreeHTML5.co</title>
+                           <meta name="viewport" content="width=device-width, initial-scale=1">
+                           <meta name="description" content="Free HTML5 Website Template by FreeHTML5.co" />
+                           <meta name="keywords" content="free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+                           <meta name="author" content="FreeHTML5.co" />
+
+                           <!-- Facebook and Twitter integration -->
+                           <meta property="og:title" content="" />
+                           <meta property="og:image" content="" />
+                           <meta property="og:url" content="" />
+                           <meta property="og:site_name" content="" />
+                           <meta property="og:description" content="" />
+                           <meta name="twitter:title" content="" />
+                           <meta name="twitter:image" content="" />
+                           <meta name="twitter:url" content="" />
+                           <meta name="twitter:card" content="" />
+                           <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+                           <link rel="shortcut icon" href="favicon.ico">
+                           <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:400,500,700" rel="stylesheet">
+                           <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
 
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+                           <!-- Animate.css -->
+                           <link rel="stylesheet" href="css/animate.css">
+                           <!-- Icomoon Icon Fonts-->
+                           <link rel="stylesheet" href="css/icomoon.css">
+                           <!-- Bootstrap  -->
+                           <link rel="stylesheet" href="css/bootstrap.css">
+                           <!-- Owl Carousel -->
+                           <link rel="stylesheet" href="css/owl.carousel.min.css">
+                           <link rel="stylesheet" href="css/owl.theme.default.min.css">
+                           <!-- Theme style  -->
+                           <link rel="stylesheet" href="css/style.css">
+                           <!-- Modernizr JS -->
+                           <script src="js/modernizr-2.6.2.min.js"></script>
+                           <!-- FOR IE9 below -->
+                           <!--[if lt IE 9]>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->
+                           <script type="text/javascript">
+                               window.onload = function () {
+                                   var tweetlist = document.getElementsByClassName("tweetlink");
+                                   for (var i = 0; i < tweetlist.length; i++) {
+                                       tweetlist[i].setAttribute("id", "tweetContent" + i);
+                                   }
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<link rel="shortcut icon" href="favicon.ico">
+                                   var quotelist = document.getElementsByClassName("quotelink");
+                                   for (var i = 0; i < quotelist.length; i++) {
+                                       quotelist[i].setAttribute("id", "quoteContent" + i);
+                                   }
 
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Roboto:400,500,700" rel="stylesheet">
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Owl Carousel -->
-	<link rel="stylesheet" href="css/owl.carousel.min.css">
-	<link rel="stylesheet" href="css/owl.theme.default.min.css">
-	<!-- Theme style  -->
-	<link rel="stylesheet" href="css/style.css">
+                                   var sourcelist = document.getElementsByClassName("sourcelink");
+                                   for (var i = 0; i < sourcelist.length; i++) {
+                                   sourcelist[i].setAttribute("id", "quoteSource" + i);
+                                   }
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+                                   for (var i = 0; i < 10; ++i) {
+                                       var quoteContent = document.getElementById("quoteContent" + [i]);
+                                       var tweetContent = document.getElementById("tweetContent" + [i]);
+                                       var sourceContent = document.getElementById("quoteSource" + [i]);
+                                       tweetContent.href = "https://twitter.com/intent/tweet?text=" + quoteContent.innerHTML + sourceContent.innerHTML;
+                                   }
+                               }
 
-	</head>
+                           </script>
+                       </head>
     <body>
         <div id="fh5co-page">
             <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
@@ -108,30 +131,30 @@
                 </div>
 
 
-                <div class="fh5co-testimonial">
+                <div class="fh5co-testimonial img-left">
                     <div class="fh5co-narrow-content">
                         <div class="animate-box" data-animate-effect="fadeInLeft">
                             <div class="item">
-                                <figure class="figure-left">
+                                <figure>
                                     <img src="images/testimonial_person2.jpg" alt="Free HTML5 Bootstrap Template">
                                 </figure>
-                                <p class="text-center quote">Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained. &rdquo; <cite class="author">&mdash; Ferdinand A. Porsche</cite></p>
+                                <p class="text-center quote"><span id="quoteContent" class="quotelink">Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained. Quote 1.</span> &rdquo; <cite class="author"><span id="quoteSource" class="sourcelink">&mdash; Ferdinand A. Porsche</span></cite></p>
+                                <a id="tweetContent" class="tweetlink" href="" target="_blank"><i class="fab fa-twitter"></i> Tweet This</a>
                             </div>
-
                         </div>
                     </div>
                 </div>
 
-                <div class="fh5co-testimonial">
+                <div class="fh5co-testimonial img-right">
                     <div class="fh5co-narrow-content">
                         <div class="animate-box" data-animate-effect="fadeInRight">
                             <div class="item">
-
-                                <p class="text-center quote">Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained. &rdquo; <cite class="author">&mdash; Ferdinand A. Porsche</cite></p>
-                                <figure class="figure-right">
+                                <p class="text-center quote"><span id="quoteContent" class="quotelink">Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained. Quote 2.</span> &rdquo; <cite class="author"><span id="quoteSource" class="sourcelink">&mdash; Ferdinand A. Porsche</span></cite></p>
+                                <figure>
                                     <img src="images/testimonial_person2.jpg" alt="Free HTML5 Bootstrap Template">
                                 </figure>
-                            </div>
+                                <a id="tweetContent" class="tweetlink" href="" target="_blank"><i class="fab fa-twitter"></i> Tweet This</a>
+</div>
 
                         </div>
                     </div>

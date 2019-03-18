@@ -1308,41 +1308,59 @@ margin-bottom:60px;}
         margin-bottom:-40px;
     }
 
-    figure.figure-left {
-        margin-left: -3em;      
+.fh5co-testimonial.img-left figure{
+    margin-left: -3em;
+}
+
+.fh5co-testimonial.img-right figure {
+        margin-right: -3em;
+        margin-left: 3em;
+        float: right;
     }
 
-figure.figure-right {
-    margin-right: -3em;
-    margin-left:3em;
-    float:right;
-}
+.fh5co-testimonial.img-left .item figure img{
+        margin-left: -3em;
+        width: 100%;
+    }
 
-.fh5co-testimonial .item figure.figure-left img {
-    margin-left: -3em;
-    width:100%;
-}
-
-.fh5co-testimonial .item figure.figure-right img {
-    margin-right: -3em;
-    margin-left:3em;
-    width: 100%;
-}
+    .fh5co-testimonial.img-right .item figure img {
+        margin-right: -3em;
+        margin-left: 3em;
+        width: 100%;
+    }
 
 .fh5co-testimonial .quote {
     position: relative;
 }
-
-    .fh5co-testimonial .quote:before {
-        content: '\201C';
-        position: absolute;
-        top: -0.44em;
-        left: -0.15em;
-        color: rgba(255,255,255,.3);
-        font-size: 6em;
-        z-index: -1;
-        font-family: helvetica;
+    .tweetlink, .tweetlink:visited {
+    color:#fff; text-decoration:none;
+    position:absolute;
+    bottom:40px;
     }
+        .tweetlink:hover {
+        color:rgba(255, 255, 255, .7);}
+
+        .fh5co-testimonial.img-right .tweetlink {
+            left: 100px;
+            right: auto;
+        }
+
+.fh5co-testimonial.img-left .tweetlink {
+    right: 100px;
+    left: auto;
+}
+
+.fh5co-testimonial .quote:before {
+    content: '\201C';
+    position: absolute;
+    top: -0.44em;
+    left: -0.15em;
+    color: rgba(255,255,255,.3);
+    font-size: 6em;
+    z-index: -1;
+    font-family: helvetica;
+}
+
 
 .number-box {
     width: 100%;
