@@ -46,7 +46,9 @@
                            <!--[if lt IE 9]>
     <script src="js/respond.min.js"></script>
     <![endif]-->
-                           <script type="text/javascript">
+                          
+
+                           <script>
                                window.onload = function () {
                                    var tweetlist = document.getElementsByClassName("tweetlink");
                                    for (var i = 0; i < tweetlist.length; i++) {
@@ -60,7 +62,7 @@
 
                                    var sourcelist = document.getElementsByClassName("sourcelink");
                                    for (var i = 0; i < sourcelist.length; i++) {
-                                   sourcelist[i].setAttribute("id", "quoteSource" + i);
+                                       sourcelist[i].setAttribute("id", "quoteSource" + i);
                                    }
 
                                    for (var i = 0; i < 10; ++i) {
@@ -70,299 +72,309 @@
                                        tweetContent.href = "https://twitter.com/intent/tweet?text=" + quoteContent.innerHTML + sourceContent.innerHTML;
                                    }
                                }
-
                            </script>
                        </head>
-    <body>
-        <div id="fh5co-page">
-            <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
-            <aside id="fh5co-aside" role="complementary" class="border js-fullheight">
-                <!--<h1 id="fh5co-logo"><a href="index.html"><img src="https://github.com/juliemitchell47/RIHA/blob/master/rihousing.png?raw=true" alt="Free HTML5 Bootstrap Website Template"></a></h1>-->
-                <nav id="fh5co-main-menu" role="navigation">
-                    <ul>
-                        <li class="fh5co-active"><a href="index.html">2018 Annual Report</a></li>
-                        <li><a href="portfolio.html">Letter from the Governor</a></li>
-                        <li><a href="about.html">Letter from the Executive Director &amp; Board Chairman</a></li>
-                        <li><a href="contact.html">Investigating by the Numbers</a></li>
-                        <li><a href="">Mapping</a></li>
-                        <li><a href="">Economic Impact</a></li>
-                        <li><a href="">Help to Buy Homes</a></li>
-                        <li><a href="">Help for Homeowners</a></li>
-                        <li><a href="">Help for Renters</a></li>
-                        <li><a href="">Building Homes</a></li>
-                        <li><a href="">What's Next</a></li>
-                        <li><a href="">2018 Community Events</a></li>
-                        <li><a href="">Board of Commissioners </a></li>
-                        <li><a href="">About RIHousing</a></li>
-                    </ul>
-                </nav>
-            </aside>
-            <div id="fh5co-main">
-                <div class="banner-image intro-img">
-                    <div class="logo"><img src="https://github.com/juliemitchell47/RIHA/blob/master/images/rihousing-white.png?raw=true"></div>
-                    <div class="animate-box intro-headline" data-animate-effect="fadeInLeft">
-                        <h1>2018 Annual Report</h1>
-                        <h2 class="tagline">INVEST. BUILD. BELIEVE</h2>
-                    </div>
-                    <div class="animate-box lower-text" data-animate-effect="fadeInRight">
-                        <h5>Placeholder Subhead</h5>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium, dui id porta finibus, erat mi viverra est, sed pretium elit elit eget libero. Sed lobortis leo eu erat suscipit, a tristique tellus varius. Sed accumsan in dolor et fermentum. Morbi pharetra congue arcu, et interdum magna.</p>
-                    </div>
-                </div>
-                <div class="fh5co-narrow-content light-bkg">
-                    <div class="row animate-box" data-animate-effect="fadeInLeft">
-                        <div class="col-md-4 work-item">
-                            <img src="images/work_1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
-                            <span class="signature animate-box" data-animate-effect="fadeInLeft"><i>Signature</i></span>
-                        </div>
-                        <div class="col-md-8">
-                            <h3 class="fh5co-work-title">Letter From The Governor</h3>
-                            <p>
-                                Rhode Island has been on a comeback for several years. Since pulling out of the recession, Rhode Island's economy and housing market have been
-                                experiencing strong positive trends. I am proud to say that part of our economic comeback is a result of the work of RIHousing.
-                            </p>
-                            <p>RIHousing has helped generations of Rhode Islanders across the state find a place to call 'home'. From those looking for affordable rental options, to first-time homebuyers looking to put down roots in our state, to homeowners struggling to maintain their homes, and developers and community partners needing financing to support the creation of new homes and neighborhoods. RIHousing's work touches each of us.</p>
-                            <p>2018 was a strong year for the corporation. RIHousing pumped $780 million into the state's economy, providing homes for Rhode Islanders that are within their financial reach while creating jobs, building strong communities and promoting economic development.  These housing investments strengthen our workforce, boost our construction and real estate industries, and bring us closer to our goal of ensuring  every Rhode Island family has a home within their financial reach.</p>
-                            <p>But, RIHousing does not operate in a vacuum. With the support of elected officials, state and municipal offices, the business community and others, the agency works with an array of partners all committed to the same goal of revitalizing the state’s economy and supporting its residents. For four years my administration has fought hard to make Rhode Island a place where people have confidence that they can make a good life for themselves and their families. A safe home is critical to reaching that goal.</p>
-                            <p>As I shared in my inaugural address earlier this year, let's commit ourselves to sustaining the comeback until every Rhode Islander is included, and to making choices that will position our state for success for the long haul. Part of that success is ensuring housing is affordable to Rhode Island’s residents. That families have a home where their children can grow, seniors can age in place, young people can become first-time homeowners, and that we can attract businesses here and retain top talent.</p>
-                            <p>These may seem like lofty goals, but we have the energy and commitment to make them happen. Together we can achieve great things for our state. As RIHousing begins a new chapter in its history, let’s continue to work together and support them in these efforts.</p>
-                        </div>
-                    </div>
-                </div>
+                       <body>
+                           <div id="fh5co-page">
+                               <a href="#" class="js-fh5co-nav-toggle fh5co-nav-toggle"><i></i></a>
+                               <aside id="fh5co-aside" role="complementary" class="border js-fullheight nav-column">
+                                   <!--<h1 id="fh5co-logo"><a href="index.html"><img src="https://github.com/juliemitchell47/RIHA/blob/master/rihousing.png?raw=true" alt="Free HTML5 Bootstrap Website Template"></a></h1>-->
+                                   <nav id="fh5co-main-menu" role="navigation">
+                                       <ul>
+                                           <li class="fh5co-active"><a href="index.html">2018 Annual Report</a></li>
+                                           <li><a href="portfolio.html">Letter from the Governor</a></li>
+                                           <li><a href="about.html">Letter from the Executive Director &amp; Board Chairman</a></li>
+                                           <li><a href="contact.html">Investigating by the Numbers</a></li>
+                                           <li><a href="">Mapping</a></li>
+                                           <li><a href="">Economic Impact</a></li>
+                                           <li><a href="">Help to Buy Homes</a></li>
+                                           <li><a href="">Help for Homeowners</a></li>
+                                           <li><a href="">Help for Renters</a></li>
+                                           <li><a href="">Building Homes</a></li>
+                                           <li><a href="">What's Next</a></li>
+                                           <li><a href="">2018 Community Events</a></li>
+                                           <li><a href="">Board of Commissioners </a></li>
+                                           <li><a href="">About RIHousing</a></li>
+                                       </ul>
+                                   </nav>
+                               </aside>
+                               <div id="fh5co-main">
+                                   <div class="banner-image intro-img">
+                                       <div class="logo"><img src="https://github.com/juliemitchell47/RIHA/blob/master/images/rihousing-white.png?raw=true"></div>
+                                       <div class="animate-box intro-headline" data-animate-effect="fadeInLeft">
+                                           <h1>2018 Annual Report</h1>
+                                           <h2 class="tagline">INVEST. BUILD. BELIEVE</h2>
+                                       </div>
+                                       <div class="animate-box lower-text" data-animate-effect="fadeInRight">
+                                           <h5>Placeholder Subhead</h5>
+                                           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium, dui id porta finibus, erat mi viverra est, sed pretium elit elit eget libero. Sed lobortis leo eu erat suscipit, a tristique tellus varius. Sed accumsan in dolor et fermentum. Morbi pharetra congue arcu, et interdum magna.</p>
+                                       </div>
+                                   </div>
+                                   <div class="fh5co-narrow-content light-bkg">
+                                       <div class="row animate-box" data-animate-effect="fadeInLeft">
+                                           <div class="col-md-4 work-item">
+                                               <img src="images/work_1.jpg" alt="Free HTML5 Website Template by FreeHTML5.co" class="img-responsive">
+                                               <span class="signature animate-box" data-animate-effect="fadeInLeft"><i>Signature</i></span>
+                                           </div>
+                                           <div class="col-md-8">
+                                               <h3 class="fh5co-work-title">Letter From The Governor</h3>
+                                               <p>
+                                                   Rhode Island has been on a comeback for several years. Since pulling out of the recession, Rhode Island's economy and housing market have been
+                                                   experiencing strong positive trends. I am proud to say that part of our economic comeback is a result of the work of RIHousing.
+                                               </p>
+                                               <p>RIHousing has helped generations of Rhode Islanders across the state find a place to call 'home'. From those looking for affordable rental options, to first-time homebuyers looking to put down roots in our state, to homeowners struggling to maintain their homes, and developers and community partners needing financing to support the creation of new homes and neighborhoods. RIHousing's work touches each of us.</p>
+                                               <p>2018 was a strong year for the corporation. RIHousing pumped $780 million into the state's economy, providing homes for Rhode Islanders that are within their financial reach while creating jobs, building strong communities and promoting economic development.  These housing investments strengthen our workforce, boost our construction and real estate industries, and bring us closer to our goal of ensuring  every Rhode Island family has a home within their financial reach.</p>
+                                               <p>But, RIHousing does not operate in a vacuum. With the support of elected officials, state and municipal offices, the business community and others, the agency works with an array of partners all committed to the same goal of revitalizing the state’s economy and supporting its residents. For four years my administration has fought hard to make Rhode Island a place where people have confidence that they can make a good life for themselves and their families. A safe home is critical to reaching that goal.</p>
+                                               <p>As I shared in my inaugural address earlier this year, let's commit ourselves to sustaining the comeback until every Rhode Islander is included, and to making choices that will position our state for success for the long haul. Part of that success is ensuring housing is affordable to Rhode Island’s residents. That families have a home where their children can grow, seniors can age in place, young people can become first-time homeowners, and that we can attract businesses here and retain top talent.</p>
+                                               <p>These may seem like lofty goals, but we have the energy and commitment to make them happen. Together we can achieve great things for our state. As RIHousing begins a new chapter in its history, let’s continue to work together and support them in these efforts.</p>
+                                           </div>
+                                       </div>
+                                   </div>
 
 
-                <div class="fh5co-testimonial img-left">
-                    <div class="fh5co-narrow-content">
-                        <div class="animate-box" data-animate-effect="fadeInLeft">
-                            <div class="item">
-                                <figure>
-                                    <img src="images/testimonial_person2.jpg" alt="Free HTML5 Bootstrap Template">
-                                </figure>
-                                <p class="text-center quote"><span id="quoteContent" class="quotelink">Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained. Quote 1.</span> &rdquo; <cite class="author"><span id="quoteSource" class="sourcelink">&mdash; Ferdinand A. Porsche</span></cite></p>
-                                <a id="tweetContent" class="tweetlink" href="" target="_blank"><i class="fab fa-twitter"></i> Tweet This</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                                   <div class="fh5co-testimonial img-left">
+                                       <div class="fh5co-narrow-content">
+                                           <div class="animate-box" data-animate-effect="fadeInLeft">
+                                               <div class="item">
+                                                   <figure>
+                                                       <img src="images/testimonial_person2.jpg">
+                                                   </figure>
+                                                   <p class="text-center quote"><span id="quoteContent" class="quotelink">Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained. Quote 1.</span> &rdquo; <cite class="author"><span id="quoteSource" class="sourcelink">&mdash; Ferdinand A. Porsche</span></cite></p>
+                                                   <a id="tweetContent" class="tweetlink" href="" target="_blank"><i class="fab fa-twitter"></i> Tweet This</a>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
 
-                <div class="fh5co-testimonial img-right">
-                    <div class="fh5co-narrow-content">
-                        <div class="animate-box" data-animate-effect="fadeInRight">
-                            <div class="item">
-                                <p class="text-center quote"><span id="quoteContent" class="quotelink">Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained. Quote 2.</span> &rdquo; <cite class="author"><span id="quoteSource" class="sourcelink">&mdash; Ferdinand A. Porsche</span></cite></p>
-                                <figure>
-                                    <img src="images/testimonial_person2.jpg" alt="Free HTML5 Bootstrap Template">
-                                </figure>
-                                <a id="tweetContent" class="tweetlink" href="" target="_blank"><i class="fab fa-twitter"></i> Tweet This</a>
-</div>
+                                   <div class="fh5co-testimonial img-right">
+                                       <div class="fh5co-narrow-content">
+                                           <div class="animate-box" data-animate-effect="fadeInRight">
+                                               <div class="item">
+                                                   <p class="text-center quote"><span id="quoteContent" class="quotelink">Design must be functional and functionality must be translated into visual aesthetics, without any reliance on gimmicks that have to be explained. Quote 2.</span> &rdquo; <cite class="author"><span id="quoteSource" class="sourcelink">&mdash; Ferdinand A. Porsche</span></cite></p>
+                                                   <figure>
+                                                       <img src="images/testimonial_person2.jpg" alt="Free HTML5 Bootstrap Template">
+                                                   </figure>
+                                                   <a id="tweetContent" class="tweetlink" href="" target="_blank"><i class="fab fa-twitter"></i> Tweet This</a>
+                                               </div>
 
-                        </div>
-                    </div>
-                </div>
+                                           </div>
+                                       </div>
+                                   </div>
 
-                <div class="fh5co-narrow-content">
-                    <div class="row animate-box" data-animate-effect="fadeInLeft">
-                        <div class="col-md-6">
-                            <img src="https://github.com/juliemitchell47/RIHA/blob/master/images/family.jpg?raw=true">
-                        </div>
-                        <div class="col-md-6">
-                            <h3 class="fh5co-work-title">Help To Buy Homes</h3>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium, dui id porta finibus, erat mi viverra est, sed pretium elit elit eget libero. Sed lobortis leo eu erat suscipit, a tristique tellus varius. Sed accumsan in dolor et fermentum. Morbi pharetra congue arcu, et interdum magna semper quis.</p>
-                            <p>Fusce purus tellus, finibus non rutrum porttitor, vestibulum ac orci. Vivamus non aliquet arcu, nec aliquet nunc. Donec aliquet vitae tellus in viverra. Phasellus erat ipsum, iaculis mattis iaculis sit amet, viverra sed lorem. Vestibulum justo ipsum, porttitor vel mauris in, tempor convallis enim. 2 Intro paragraphs. 95 Words</p>
-                        </div>
-                    </div>
-                </div>
+                                   <div class="fh5co-narrow-content">
+                                       <div class="row animate-box" data-animate-effect="fadeInLeft">
+                                           <div class="col-md-6">
+                                               <img src="https://github.com/juliemitchell47/RIHA/blob/master/images/family.jpg?raw=true">
+                                           </div>
+                                           <div class="col-md-6">
+                                               <h3 class="fh5co-work-title">Help To Buy Homes</h3>
+                                               <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed pretium, dui id porta finibus, erat mi viverra est, sed pretium elit elit eget libero. Sed lobortis leo eu erat suscipit, a tristique tellus varius. Sed accumsan in dolor et fermentum. Morbi pharetra congue arcu, et interdum magna semper quis.</p>
+                                               <p>Fusce purus tellus, finibus non rutrum porttitor, vestibulum ac orci. Vivamus non aliquet arcu, nec aliquet nunc. Donec aliquet vitae tellus in viverra. Phasellus erat ipsum, iaculis mattis iaculis sit amet, viverra sed lorem. Vestibulum justo ipsum, porttitor vel mauris in, tempor convallis enim. 2 Intro paragraphs. 95 Words</p>
+                                           </div>
+                                       </div>
+                                   </div>
 
-                <div class="fh5co-narrow-content light-bkg">
-                    <div class="row animate-box" data-animate-effect="bounceIn">
-                        <div class="col-md-3 text-center">
-                            <div class="fh5co-icon hvr-grow">
-                                <i class="icon-strategy"></i>
-                            </div>
-                            <div class="stat-text">
-                                <h3>Icon Stat</h3>
-                            </div>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <div class="fh5co-icon hvr-grow">
-                                <i class="icon-strategy"></i>
-                            </div>
-                            <div class="stat-text">
-                                <h3>Icon Stat</h3>
-                            </div>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <div class="fh5co-icon hvr-grow">
-                                <i class="icon-strategy"></i>
-                            </div>
-                            <div class="stat-text">
-                                <h3>Icon Stat</h3>
-                            </div>
-                        </div>
-                        <div class="col-md-3 text-center">
-                            <div class="fh5co-icon hvr-grow">
-                                <i class="icon-strategy"></i>
-                            </div>
-                            <div class="stat-text">
-                                <h3>Icon Stat</h3>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+                                   <div class="fh5co-narrow-content light-bkg">
+                                       <div class="row animate-box" data-animate-effect="bounceIn">
+                                           <div class="col-md-3 text-center">
+                                               <div class="fh5co-icon hvr-grow">
+                                                   <i class="icon-strategy"></i>
+                                               </div>
+                                               <div class="stat-text">
+                                                   <h3>Icon Stat</h3>
+                                               </div>
+                                           </div>
+                                           <div class="col-md-3 text-center">
+                                               <div class="fh5co-icon hvr-grow">
+                                                   <i class="icon-strategy"></i>
+                                               </div>
+                                               <div class="stat-text">
+                                                   <h3>Icon Stat</h3>
+                                               </div>
+                                           </div>
+                                           <div class="col-md-3 text-center">
+                                               <div class="fh5co-icon hvr-grow">
+                                                   <i class="icon-strategy"></i>
+                                               </div>
+                                               <div class="stat-text">
+                                                   <h3>Icon Stat</h3>
+                                               </div>
+                                           </div>
+                                           <div class="col-md-3 text-center">
+                                               <div class="fh5co-icon hvr-grow">
+                                                   <i class="icon-strategy"></i>
+                                               </div>
+                                               <div class="stat-text">
+                                                   <h3>Icon Stat</h3>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
 
-                <div class="fh5co-narrow-content">
-                    <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Icons and Callouts</h2>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
-                                <div class="fh5co-icon hvr-grow">
-                                    <i class="icon-strategy"></i>
-                                </div>
-                                <div class="fh5co-text">
-                                    <h3>Strategy</h3>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
-                                <div class="fh5co-icon hvr-grow">
-                                    <i class="icon-telescope"></i>
-                                </div>
-                                <div class="fh5co-text">
-                                    <h3>Explore</h3>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
-                                <div class="fh5co-icon hvr-grow">
-                                    <i class="icon-circle-compass"></i>
-                                </div>
-                                <div class="fh5co-text">
-                                    <h3>Direction</h3>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-md-6">
-                            <div class="fh5co-feature animate-box" data-animate-effect="fadeInLeft">
-                                <div class="fh5co-icon hvr-grow">
-                                    <i class="icon-tools-2"></i>
-                                </div>
-                                <div class="fh5co-text">
-                                    <h3>Expertise</h3>
-                                    <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="fh5co-counters" style="background-image: url(images/hero.jpg);" data-stellar-background-ratio="0.5" id="counter-animate">
-                    <div class="fh5co-narrow-content animate-box">
-                        <div class="row">
-                            <div class="col-md-4 text-center">
-                                <span class="fh5co-counter js-counter" data-from="0" data-to="67" data-speed="5000" data-refresh-interval="50"></span>
-                                <span class="fh5co-counter-label">Clients Worked With</span>
-                            </div>
-                            <div class="col-md-4 text-center">
-                                <span class="fh5co-counter js-counter" data-from="0" data-to="130" data-speed="5000" data-refresh-interval="50"></span>
-                                <span class="fh5co-counter-label">Completed Projects</span>
-                            </div>
-                            <div class="col-md-4 text-center">
-                                <span class="fh5co-counter js-counter" data-from="0" data-to="27232" data-speed="5000" data-refresh-interval="50"></span>
-                                <span class="fh5co-counter-label">Line of Codes</span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="fh5co-content">
-                    <div class="indent-content"><h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Number Counter Boxes</h2></div>
-                    <div class="number-box">
-                        <div class="flex-center">
-                            <div class="fh5co-icon">
-                                <i class="icon-tools-2"></i>
-                            </div>
-                            <span class="fh5co-counter js-counter money" data-from="0" data-to="839" data-speed="3000" data-refresh-interval="43"></span>
-                            <span class="fh5co-counter-label">Million</span>
-                        </div>
-                        <div class="add-num-info">Additional Number Information</div>
-                    </div>
+                                   <div class="event-header">
+                                       <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Events - Left Right Boxes</h2>
+                                       <img src="https://github.com/juliemitchell47/RIHA/blob/master/images/event-header.jpg?raw=true">
+                                   </div>
+                                       <div class="events">
+                                           <div class="row animate-box" data-animate-effect="fadeInLeft">
+                                               <div class="col-md-6 event-image">
+                                                   <img src="https://github.com/juliemitchell47/RIHA/blob/master/images/event-img.jpg?raw=true">
+                                               </div>
+                                               <div class="col-md-6 event-text">
+                                                   <h3>Explore</h3>
+                                                   <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                               </div>
+                                           </div>
+                                           <div class="row animate-box" data-animate-effect="fadeInRight">
+                                               <div class="col-md-6 event-text">
+                                                   <h3>Explore</h3>
+                                                   <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                               </div>
+                                               <div class="col-md-6 event-image">
+                                                   <img src="https://github.com/juliemitchell47/RIHA/blob/master/images/event-img.jpg?raw=true">
+                                                   <div class="row">
+                                                       <div class="col-md-6">
+                                                           <img src="https://github.com/juliemitchell47/RIHA/blob/master/images/event-img.jpg?raw=true">
+                                                       </div>
+                                                       <div class="col-md-6">
+                                                           <img src="https://github.com/juliemitchell47/RIHA/blob/master/images/event-img.jpg?raw=true">
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <div class="row animate-box" data-animate-effect="fadeInLeft">
+                                               <div class="col-md-6 event-image">
+                                                   <img src="https://github.com/juliemitchell47/RIHA/blob/master/images/event-img.jpg?raw=true">
+                                               </div>
+                                               <div class="col-md-6 event-text">
+                                                   <h3>Explore</h3>
+                                                   <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                               </div>
+                                           </div>
+                                           <div class="row animate-box" data-animate-effect="fadeInRight">
+                                               <div class="col-md-6 event-text">
+                                                   <h3>Explore</h3>
+                                                   <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                               </div>
+                                               <div class="col-md-6 event-image">
+                                                   <img src="https://github.com/juliemitchell47/RIHA/blob/master/images/event-img.jpg?raw=true">
+                                               </div>
+                                           </div>
+                                           <div class="row animate-box" data-animate-effect="fadeInLeft">
+                                               <div class="col-md-6 event-image">
+                                                   <img src="https://github.com/juliemitchell47/RIHA/blob/master/images/event-img.jpg?raw=true">
 
-                    <div class="number-box">
-                        <div class="flex-center">
-                            <div class="fh5co-icon">
-                                <i class="icon-tools-2"></i>
-                            </div>
-                            <span class="fh5co-counter js-counter money" data-from="0" data-to="310" data-speed="3000" data-refresh-interval="43"></span>
-                            <span class="fh5co-counter-label">Million</span>
-                        </div>
-                        <div class="add-num-info">Additional Number Information</div>
-                    </div>
-                </div>
+                                               </div>
+                                               <div class="col-md-6 event-text">
+                                                   <h3>Explore</h3>
+                                                   <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                                   <div class="row">
+                                                       <div class="col-md-6">
+                                                           <img src="https://github.com/juliemitchell47/RIHA/blob/master/images/event-img.jpg?raw=true">
+                                                       </div>
+                                                       <div class="col-md-6">
+                                                           <img src="https://github.com/juliemitchell47/RIHA/blob/master/images/event-img.jpg?raw=true">
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                           <div class="row animate-box" data-animate-effect="fadeInRight">
+                                               <div class="col-md-6 event-text">
+                                                   <h3>Explore</h3>
+                                                   <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. </p>
+                                               </div>
+                                               <div class="col-md-6 event-image">
+                                                   <img src="https://github.com/juliemitchell47/RIHA/blob/master/images/event-img.jpg?raw=true">
+                                               </div>
+                                           </div>
+                                       </div>
+                                       <div class="fh5co-counters" style="background-image: url(images/hero.jpg);" data-stellar-background-ratio="0.5" id="counter-animate">
+                                           <div class="fh5co-narrow-content animate-box">
+                                               <div class="row">
+                                                   <div class="col-md-4 text-center">
+                                                       <span class="fh5co-counter js-counter" data-from="0" data-to="67" data-speed="5000" data-refresh-interval="50"></span>
+                                                       <span class="fh5co-counter-label">Clients Worked With</span>
+                                                   </div>
+                                                   <div class="col-md-4 text-center">
+                                                       <span class="fh5co-counter js-counter" data-from="0" data-to="130" data-speed="5000" data-refresh-interval="50"></span>
+                                                       <span class="fh5co-counter-label">Completed Projects</span>
+                                                   </div>
+                                                   <div class="col-md-4 text-center">
+                                                       <span class="fh5co-counter js-counter" data-from="0" data-to="27232" data-speed="5000" data-refresh-interval="50"></span>
+                                                       <span class="fh5co-counter-label">Line of Codes</span>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                       <div class="fh5co-content">
+                                           <div class="indent-content"><h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Number Counter Boxes</h2></div>
+                                           <div class="number-box">
+                                               <div class="flex-center">
+                                                   <div class="fh5co-icon">
+                                                       <i class="icon-tools-2"></i>
+                                                   </div>
+                                                   <span class="fh5co-counter js-counter money" data-from="0" data-to="839" data-speed="3000" data-refresh-interval="43"></span>
+                                                   <span class="fh5co-counter-label">Million</span>
+                                               </div>
+                                               <div class="add-num-info">Additional Number Information</div>
+                                           </div>
 
-                <div class="fh5co-cards">
-                    <div class="fh5co-narrow-content">
-                        <h2 class="fh5co-heading animate-box" data-animate-effect="fadeInLeft">Press Release</h2>
-                        <div class="fh5co-flex-wrap">
-                            <div class="fh5co-card animate-box" data-animate-effect="fadeInLeft">
-                                <h5>Expertise</h5>
-                                <p>Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean. A small river named Duden flows by their place and supplies it with the necessary regelialia.</p>
-                                <p><a href="#" class="btn btn-md btn-primary">Learn More</a></p>
-                            </div>
-                            <div class="fh5co-card animate-box" data-animate-effect="fadeInLeft">
-                                <h5>Explore</h5>
-                                <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar. The Big Oxmox advised her not to do so, because there were thousands of bad Commas.</p>
-                                <p><a href="#" class="btn btn-md btn-primary">Learn More</a></p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-                <div class="fh5co-narrow-content">
-                    <div class="row">
-                        <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                            <h1 class="fh5co-heading-colored">We Design Beautiful &amp; Functional Website</h1>
-                        </div>
-                    </div>
-                    <div class="row">
-                        <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
-                            <p class="fh5co-lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
-                            <p><a href="#" class="btn btn-primary btn-outline">Learn More</a></p>
-                        </div>
-                        <div class="col-md-7 col-md-push-1">
-                            <div class="row">
-                                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                                </div>
-                                <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
-                                    <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- jQuery -->
-        <script src="js/jquery.min.js"></script>
-        <!-- jQuery Easing -->
-        <script src="js/jquery.easing.1.3.js"></script>
-        <!-- Bootstrap -->
-        <script src="js/bootstrap.min.js"></script>
-        <!-- Carousel -->
-        <script src="js/owl.carousel.min.js"></script>
-        <!-- Stellar -->
-        <script src="js/jquery.stellar.min.js"></script>
-        <!-- Waypoints -->
-        <script src="js/jquery.waypoints.min.js"></script>
-        <!-- Counters -->
-        <script src="js/jquery.countTo.js"></script>
+                                           <div class="number-box">
+                                               <div class="flex-center">
+                                                   <div class="fh5co-icon">
+                                                       <i class="icon-tools-2"></i>
+                                                   </div>
+                                                   <span class="fh5co-counter js-counter money" data-from="0" data-to="310" data-speed="3000" data-refresh-interval="43"></span>
+                                                   <span class="fh5co-counter-label">Million</span>
+                                               </div>
+                                               <div class="add-num-info">Additional Number Information</div>
+                                           </div>
+                                       </div>
 
 
-        <!-- MAIN JS -->
-        <script src="js/main.js"></script>
-    </body>
+                                       <div class="fh5co-narrow-content">
+                                           <div class="row">
+                                               <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                                   <h1 class="fh5co-heading-colored">We Design Beautiful &amp; Functional Website</h1>
+                                               </div>
+                                           </div>
+                                           <div class="row">
+                                               <div class="col-md-4 animate-box" data-animate-effect="fadeInLeft">
+                                                   <p class="fh5co-lead">Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                                                   <p><a href="#" class="btn btn-gold">Learn More</a></p>
+                                               </div>
+                                               <div class="col-md-7 col-md-push-1">
+                                                   <div class="row">
+                                                       <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                                           <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                                                       </div>
+                                                       <div class="col-md-6 animate-box" data-animate-effect="fadeInLeft">
+                                                           <p>Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic life One day however a small line of blind text by the name of Lorem Ipsum decided to leave for the far World of Grammar.</p>
+                                                       </div>
+                                                   </div>
+                                               </div>
+                                           </div>
+                                       </div>
+                                   </div>
+                               </div>
+                           <!-- jQuery -->
+                           <script src="js/jquery.min.js"></script>
+                           <!-- jQuery Easing -->
+                           <script src="js/jquery.easing.1.3.js"></script>
+                           <!-- Bootstrap -->
+                           <script src="js/bootstrap.min.js"></script>
+                           <!-- Carousel -->
+                           <script src="js/owl.carousel.min.js"></script>
+                           <!-- Stellar -->
+                           <script src="js/jquery.stellar.min.js"></script>
+                           <!-- Waypoints -->
+                           <script src="js/jquery.waypoints.min.js"></script>
+                           <!-- Counters -->
+                           <script src="js/jquery.countTo.js"></script>
+
+
+                           <!-- MAIN JS -->
+                           <script src="js/main.js"></script>
+                       </body>
 </html>
 
