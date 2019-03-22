@@ -47,7 +47,7 @@ h1, h2, h3, h4, h5, h6 {
     color: #fec60c;
     font-family: "Roboto", Arial, sans-serif;
     font-weight: 700;
-    margin: 0 0 30px 0;
+    margin: 0 0 10px 0;
 }
 
 figure {
@@ -140,7 +140,7 @@ figure {
     #fh5co-aside #fh5co-main-menu ul li a {
         color: rgba(255, 255, 255, 0.8);
         text-decoration: none;
-        font-size: 15px;
+        font-size: 16px;
         font-weight: 400;
         position: relative;
         -webkit-transition: 0.3s;
@@ -1371,6 +1371,10 @@ color:#003465;
     background: url(https://github.com/juliemitchell47/RIHA/blob/master/images/nav-pattern.jpg?raw=true) left top no-repeat;
     background-size:auto 100%;
     background-position:fixed;
+}
+
+#fh5co-aside #fh5co-main-menu ul li ul.submenu li a {
+    padding-left: 40px;
 }
 
 .number-box {
